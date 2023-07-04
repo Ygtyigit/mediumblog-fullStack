@@ -1,0 +1,883 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+.main{
+    width: 100%;
+    height: 500px;
+}
+ul li a{
+list-style-type: none;
+color: black;
+}
+ul li a:hover{
+    color: black;
+}
+ul li{
+    text-decoration: none;
+}
+.nav ul{
+    list-style-type: none;
+}
+.myimg{
+    width: 220px;
+    height: 57px;
+}
+.navbar ul li a{
+    color: black;
+}
+.navbardiv{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom:1px solid black ;
+}
+.navbar li{
+    display: flex;
+    margin-left: 10px;
+}
+.navbar li:first-child{
+    margin-left: 0;
+}
+.block{
+    width: 100%;
+    background-color: black;
+    height: 1px;
+}
+.bigp{
+    font-size: 100px;
+}
+.littlep{
+    font-size: 30px;
+}
+.box1{
+    background-color: black;
+    width: auto;
+    height: 40px;
+    border-radius: 20px;
+}
+.box2{
+    background-color: black;
+    width: 230px;
+    height: 45px;
+    border-radius: 25px;
+}
+.starth5{
+    color:white;
+}
+.numbers{
+    color: rgba(128, 128, 128, 0.405);
+    font-size: 40px;
+}
+.box3{
+    display: flex;
+}
+.information{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.date{
+    color: rgba(128, 128, 128, 0.629);
+}
+.block2{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+}
+.endpart{
+    margin-top: 40px;
+}
+.myimg2{
+    margin-top: 20px;
+    width: 240px;
+    height: 160px;
+}
+.endrow{
+    margin-bottom: 30px;
+}
+.date2{
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.766);
+
+}
+.endhead{
+    margin-left: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+.my2button{
+    margin-bottom: 20px;
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+}
+.box5{
+    margin-left: 100px;
+}
+.greenp a{
+    text-decoration: none;
+    color: green;
+}
+.greenp a:hover{
+    color: black;
+}
+.greenp{
+    margin-left: 15px;
+}
+.endul{
+    display: flex;
+}
+.endul li a{
+    text-decoration: none;
+    color: gray;
+}
+.endul li{
+    list-style-type: none;
+}
+.endul li a:hover{
+    color: gray;
+}
+.end2div{
+    display: flex;
+}
+.stickycol{
+    right: 30px;
+    top: 100px;
+    height: 200px;
+    position: sticky;
+}
+
+/* OUR STORY CSS */
+.big1{
+    margin-top: 110px;
+    font-size: 80px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+.block4{
+    margin-top: 130px;
+    background-color: black;
+    width: 100%;
+    height: .5px;
+}
+
+.bilgip{
+    justify-content: center;
+    width: 75%;
+}
+.bilgip p{
+    font-family: 'Soehne web buch', sans-serif;
+}
+.animation{
+    width: 100%;
+    height: 100%;
+}
+.section-2{
+    width: 100%;
+    height: 880px;
+    background-color: #ffd1b9;
+}
+.leftborder{
+    border-left: 1px solid black;
+}
+.livingh1{
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 90px;
+}
+.profileimg{
+    width: 55px;
+    height: 55px;
+}
+.erica{
+    border-bottom: 1px solid black;
+}
+.block5{
+    background-color: black;
+    height: .5px;
+    margin-top: 15px;
+}
+.section-3{
+    background-color: black;
+    width: 100%;
+    height: 1050px;
+}
+.leftcolp{
+    letter-spacing: -1px;
+    color: white;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 90px;
+}
+.borderright2{
+    border-right: 1px solid white;
+}
+.my3img{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+}
+.block8{
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: blue;
+    width: 70px;
+    height: 140px;
+    border-radius: 70%;
+}
+.block9{
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: pink;
+    width: 30px;
+    height: 140px;
+    border-radius: 70%;
+}
+.famousp{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 25px;
+}
+.famousp2{
+    margin-left: 30px;
+    font-size: 25px;
+}
+.whiteborderofmy{
+    border-bottom: 1px solid white;
+}
+.createp{
+    text-align: center;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 90px;
+}
+.pp{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.box9{
+    display: flex;
+    justify-content: center;
+}
+.writebutton{
+    font-size: 20px;
+    color: green;
+    border-radius: 20px;
+    border: 1px solid green;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+}
+.writebutton:hover{
+    color: white;
+    background-color: green;
+}
+.section-4{
+    width: 100%;
+    height: auto;
+    background-color: #34a245;
+}
+.getmorep{
+    color: black;
+    font-size: 100px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    text-align: center;
+    letter-spacing: -3.5px;
+}
+.becamep{
+    font-size: 20px;
+}
+.mybutton3{
+    margin-top: 30px;
+    background-color: #34a245;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+}
+.mybutton3:hover{
+    background-color: white;
+    color: black;
+}
+.box10{
+    display: flex;
+    justify-content: center;
+}
+.block11{
+    margin-top: 5%;
+    background-color: black;
+    width: 100%;
+    height: .5px;
+}
+.readp{
+    margin-top: 20px;
+    color: black;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 35px;
+}
+.raytborder{
+    border-right: 1px solid black;
+}
+.myps{
+    color: black;
+    font-size: 20px;
+}
+.bottomborder{
+    border-bottom: 1px solid black;
+}
+.section-5{
+    width: 100%;
+    background-color: #b6e5a4;
+    height: 450px;
+}
+.takemediump{
+    color: black;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 90px;
+    letter-spacing: -3px;
+}
+.takemediumsp{
+    font-size: 18px;
+    font-family: 'Soehne web buch', sans-serif;
+}
+.phoneimg{
+    width: 334px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.downloadimg{
+    width: 170px;
+    height: 50px;
+}
+.block13{
+    background-color: black;
+    width: 100%;
+    height: .5px;
+}
+.learnmorep{
+    color: black;
+    font-size: 7.3vw;   
+    letter-spacing: -3.2px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+.blogofp{
+    margin-top: 40px;
+    color: #000;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 35px;
+
+}
+.blogofsp{
+    color: #000;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 18px;
+}
+
+.endblocks{
+    margin-top: 100px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    color: #34a245;
+    border: 1px solid #34a245;
+    line-height: 100%;
+    padding: 0;
+}
+.endblocks:hover{
+    background-color: #34a245;
+    color: white;
+}
+.block14{
+    margin-top: 60px;
+    background-color: black;
+    width: 100%;
+    height: .5px;
+}
+.rightborder2{
+    border-left: 1px solid black;
+}
+.iframe2{
+    width: 500px;
+    height: 500px;
+}
+.lastleftborder{
+    border-left: 1px solid black;
+}
+.littleimg{
+    margin-top: 20px;
+    width: 300px;
+    height: 70px;
+}
+.bottomborder2{
+    border-bottom: 1px solid #000;
+}
+.disimg{
+    display: flex;
+    justify-content: center;
+}
+.justfy{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+.justfy li{
+    list-style-type: none;
+}
+.justfy li a{
+    font-size: 12px;
+}
+/* MEMBERSHİP SAYFA BAŞLANGIÇ */
+.navbackground{
+    background-color: rgb(68, 121, 255);
+    border-bottom: 1px solid white;
+}
+.myimgmedium{
+    border-color: rgb(255, 255, 255);
+    width: 220px;
+    height: 57px;
+}
+.section-6{
+    width: 100%;
+    height: 450px;
+    background-color: #4479ff;
+    border-bottom: 1px solid white;
+}
+.mainheader3{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    color: white;
+    text-align: center;
+}
+.mainheader3s{
+    color: white;
+    font-size: 20px;
+}
+.content{   
+    text-align: center;
+}
+.box16{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.somanybutton{
+    justify-content: center;
+    width: 300px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.somanybutton:hover{
+    background-color: #4479ff;
+    color: white;
+    border: 1px solid white;
+    transition: .4s;
+}
+.section-7{
+    width: 100%;
+    height: 451px;
+    background-color: #4479ff;
+}
+.raytborder2{
+    border-right: 1px solid white;
+}
+.bottomborder2{
+    border-bottom: 1px solid white;
+}
+.whyp{
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    text-align: center;
+}
+.famousp3{
+    font-size: 20px;
+}
+.unlimitedbutton{
+    justify-content: center;
+    width: 300px;
+    height: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    justify-content: center;
+}
+.unlimitedbutton:hover{
+    background-color: gray;
+    transition: .5s;
+}
+.section-9{
+    border-top: 1px solid black;
+    background-color: #bcdfff;
+    width: 100%;
+    height: 500px;
+    border-bottom: 1px solid #000;
+}
+.section-10{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+}
+.takeyourp{
+    margin-top: 30px;
+    text-align: center;
+    color: #000;
+    font-size: 85px;
+    letter-spacing: -3px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+.duzgunp{
+    font-size: 18px;
+    color: #000;
+}
+/* WRİTE SAYFASI BAŞLANGIÇ */
+
+.writenav{
+    background-color: #f24d2e;
+}
+.section-11{
+    width: 100%;
+    height: 610px;
+    background-color: #f24d2e;
+
+}
+.whitep{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-family: 'Soehne web dreiviertelfett', sans-serif;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.35rem;
+    text-transform: uppercase;
+}
+.bigh2{
+    color: #000;
+    font-size: 7.3vw;
+    letter-spacing: -3.2px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-weight: 400;
+}
+.whitep2{
+    color: #000;
+    font-size: 18px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+.startwritingbutton{
+    margin-top: 30px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+}
+.blackborderrgiht{
+    border-right: 1px solid #000;
+}
+.section-12{
+    width: 100%;
+    height: 700px;
+    background-color: #000;
+}
+.bigp3{
+    color: #fff;
+    font-size: 6.5vw;
+    letter-spacing: -3.2px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+.obamaimg{
+    width: 50px;
+    height: 50px;
+
+}
+.bordertop{
+    border-top: 1px solid #fff;
+}
+.dadh6{
+    margin-left: 70px;
+}
+.section-13{
+    width: 100%;
+    height: 680px;
+    background-color: #ffd1b9;
+    border-bottom: 1px solid #000;
+}
+.spacep{
+    color: #000;
+    font-size: 80px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+
+}
+.startofwritingbutton{
+    color: #000;
+    width: 180px;
+    height: 30px;
+}
+.box18{
+    margin-top: 130px;
+}
+.section-13 .container-fluid{
+    border-bottom: 1px solid #000;
+}
+.blogofstartp{
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 40px;
+}
+.blogofstartpborder{
+    border-right: 1px solid #000;
+}
+.section-14{
+    border-bottom: 1px solid #000;
+}
+.section-15 .container .row .asd{
+    border-right: 1px solid #000;
+} 
+.iphonesimg{
+    width: 350px;
+    height: 340px;
+    background-position: center;
+    background-size: cover;
+}
+.audiencep{
+    font-size: 35px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+.audiencesp{
+    color: #000;
+    font-size: 20px;
+}
+.borderrightenaugh{
+    border-right: 1px solid #000;
+}
+.dsa{
+    padding: 30px;
+}
+.section-16{
+    width: 100%;
+    height: 500px;
+    background-image: url(https://cdn-static-1.medium.com/sites/medium.com/creators/images/cubes.png);
+    border-top: 1px solid #000;
+    background-position: 100% 50%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 1;
+    background-color: #34a245;
+}
+.bigp4{
+    color: #fff;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    font-size: 6vw;
+    text-align: left;
+    letter-spacing: -3px;
+}
+.whitep3{
+    color: #fff;
+    font-size: 17px;
+}
+.section-17{
+    width: 100%;
+    height: 930px;
+    background-color: #000;
+}
+.bigp5{
+    padding: 20px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+    font-size: 40px;
+    color: #fff;
+}
+.accordion{
+    border-bottom: 1px solid #fff;
+}
+.accordion-item{
+    background-color: #000;
+    padding: 20px;
+}
+.accordion-button{
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+.accordion-button:not(.collapsed){
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+}
+.accordion-collapse{
+    color: #fff;
+    font-size: 20px;
+}
+.bigp6{
+    color: #fff;
+    font-size: 26px;
+}
+.bigpsbutton{
+    width: 230px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+}
+.modalp{
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Gt super text book', Georgia, sans-serif;
+}
+.appsbutton{
+    display: block; 
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid #000;
+}
+.appsdiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.appsbutton a{
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+.sameimg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.modal-content{
+    height: 120vh !important;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.modalp2 a{
+    font-size: 18px;
+    color: green;
+    text-decoration: none;
+}
+.modalp3{
+    color: gray;
+    font-size: 13px;
+}
+.modalp3 a{
+    color: gray;
+    font-size: 13px;
+}
+.inpagenav form img{ 
+    margin-right: 20px;
+}
+.profileimage{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.signinul{
+    display: flex;
+
+}
+.signinul li{
+    list-style: none;
+    padding-right: 20px;
+}
+.signinul li a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.851);
+}
+.staffp{
+    font-size: 18px;
+}
+.prof2p{
+    font-size: 13px;
+}
+.box20{
+    padding: 20px;
+    width: 280px;
+    height: 200px;
+    background-color: rgb(196, 226, 255);
+    border-radius: 4px;
+}
+.signinp{
+    font-size: 15px;
+    color: #000;
+}
+.signinp2{
+    font-size: 12px;
+    color: #000;
+}
+.smallbutton{
+    width: 100px;
+    height: 30px;
+    background-color: #000;
+    color: white;
+    border-radius: 20px;
+    font-size: 13px;
+}
+.discoverp{
+    font-size: 14px;
+    text-align: center;
+}
+.connectbutton{
+    justify-content: center;
+    width: 225px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: white;
+}
+.maybep a{
+    color: gray;
+}
+.maybep{
+    text-align: center;
+}
+.balloons{
+    margin: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.225);
+}
+.followbutton{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white ;
+    border-radius: 20px;
+}
+.navbarp10 p{
+    font-size: 30px;
+}
+/* @media screen and (max-width : 770px) {
+    .container .row .col-4{
+        background-color: green; 
+        color: red;
+    }
+} */
+@media screen and (max-width: 850px) {
+    .stickycol {
+      display: none;
+    }
+  }
+
+@media screen and (max-width: 1200px) {
+    .mediacontainer{
+
+    }
+}
