@@ -12,17 +12,20 @@
 <body>
     <nav class="navbar navbar-expand-lg navbackground">
         <div class=" navbardiv container-fluid">
-            <img class="myimgmedium" src="./img/mediumlogo.png" alt="">
+            {% comment %} <img class="myimgmedium" src="./img/mediumlogo.png" alt=""> {% endcomment %}
+            <a href="/index">
+              <img class="myimg" src= "{% static 'img/mediumlogo.png' %}" alt="">
+            </a>
           <div class="  collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-white" href="/ourstory.html">Our Story</a>
+                <a class="nav-link text-white" href="/ourstory">Our Story</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="/membership.html">Membership</a>
+                <a class="nav-link text-white" href="/membership">Membership</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="write.html">Write</a>
+                <a class="nav-link text-white" href="/write">Write</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign In</a>
