@@ -190,7 +190,7 @@
   </button> -->
   
   <!-- Modal -->
-  <div class="kayitolmodal">
+  <div class="girisyapmodal">
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -215,7 +215,10 @@
   </div>
 </div>
   
-  <!-- Modal -->
+
+
+
+  <!-- KAYITOL -->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -225,10 +228,21 @@
         <div class="modal-body">
             <p class="modalp">Join Medium</p>
            <div class="appsbutton2 mt-5">
-           <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="/img/google (1).png" alt=""><a href="">Sign in with Google</a></button></div>
-           <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="/img/facebook.png" alt=""><a href="">Sign in with Facebook</a></button></div>
-           <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="/img/mail.png" alt=""><a href="">Sign in with Email</a></button></div>
+           <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="{% static 'img/google (1).png' %}" alt=""><a href="">Sign up with Google</a></button></div>
+           <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="{% static 'img/facebook.png' %}" alt=""><a href="">Sign up with Facebook</a></button></div>
+           <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="{% static 'img/mail.png' %}" alt=""><a href="">Sign up with Email</a></button></div>
         </div>
+
+        <form class="mt-5" method="POST" action="">
+          {% csrf_token %}
+
+          <input class="mt-1" name="name" type="text" placeholder="Kullanıcı Adı">
+          <input class="mt-1" name="email" type="text" placeholder="E-mail">
+          <input class="mt-1" name="passwaord1" type="password" placeholder="Şifre">
+          <input class="mt-1" name="passwaord2" type="password" placeholder="Şifre Tekrar">
+          <button class="d-block mt-1" type="submit">Kayıt Ol</button>
+        </form>
+
         <p class="modalp2 text-center mt-5">Already have account? <a href=""><b>Sign in.</b></a></p>
         <p class="modalp3">Click “Sign In” to agree to Medium’s <a href="">Terms of Service</a> and acknowledge that Medium’s <a href="">Privacy Policy</a> applies to you.</p>
     </div>
