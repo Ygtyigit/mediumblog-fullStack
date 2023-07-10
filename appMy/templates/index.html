@@ -123,6 +123,15 @@
             </div>
           </div>
     <div class="block2"></div>
+          
+          {% if messages %}            
+          {% for mesaj in messages  %} 
+
+            <div class="alert alert-{{mesaj.tags}}">
+            {{ mesaj }}
+          </div>
+          {% endfor %}
+          {% endif %}
 
 <div class="container endpart">
     <div class="row">
@@ -193,10 +202,12 @@
   <div class="girisyapmodal">
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content d-flex">
         <div class="modal-header">
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+
+
         <div class="modal-body">
             <p class="modalp">Welcome Back.</p>
             <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="{% static 'img/google (1).png' %}" alt=""><a href="">Sign in with Google</a></button></div>
@@ -205,10 +216,34 @@
             <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="{% static 'img/twitter.png' %}" alt=""><a href="">Sign in with Twitter</a></button></div>
             <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="{% static 'img/mail.png' %}" alt=""><a href="">Sign in with Email</a></button></div>
 
+
+
+
+
+
+            <form class="mt-5 mx-5" method="POST" action="">
+              {% csrf_token %}
+              <input class="mt-2 girisinput" name="email" type="text" placeholder="E-mail">
+              <input class="mt-2 girisinput" name="password" type="password" placeholder="Şifre">
+              <button class="mt-2 girisinput" type="submit">Giriş Yap</button>
+            </form>
+            {% if messages %}
+          
+            {% for mesaj in messages %}
+            
+            <div class="alert alert-{{mesaj.tags}}">
+            {{ mesaj }}
+          </div>
+            {% endfor %}
+                        
+          {% endif %}
+
+
+            
             <p class="modalp2 text-center mt-5">No account? <a href=""><b>Create one</b></a></p>
             <p class="modalp3">Forgot email or trouble signing in? <a href="">Get help.</a></p>
             <p class="modalp3">Click “Sign In” to agree to Medium’s <a href="">Terms of Service</a> and acknowledge that Medium’s <a href="">Privacy Policy</a> applies to you.</p>
-
+            
         </div>
       </div>
     </div>
@@ -233,6 +268,7 @@
            <div class="appsdiv"><button class="appsbutton"><img class="sameimg" src="{% static 'img/mail.png' %}" alt=""><a href="">Sign up with Email</a></button></div>
         </div>
 
+
         <form class="mt-5" method="POST" action="">
           {% csrf_token %}
 
@@ -240,8 +276,21 @@
           <input class="mt-1" name="email" type="text" placeholder="E-mail">
           <input class="mt-1" name="passwaord1" type="password" placeholder="Şifre">
           <input class="mt-1" name="passwaord2" type="password" placeholder="Şifre Tekrar">
-          <button class="d-block mt-1" type="submit">Kayıt Ol</button>
+          <button class="d-block mt-1" name="kayit" type="submit">Kayıt Ol</button>
         </form>
+        
+        {% if messages %}
+          
+          {% for mesaj in messages %}
+          
+          <div class="alert alert-{{mesaj.tags}}">
+          {{ mesaj }} 
+        </div>
+          {% endfor %}
+                      
+        {% endif %}
+          
+
 
         <p class="modalp2 text-center mt-5">Already have account? <a href=""><b>Sign in.</b></a></p>
         <p class="modalp3">Click “Sign In” to agree to Medium’s <a href="">Terms of Service</a> and acknowledge that Medium’s <a href="">Privacy Policy</a> applies to you.</p>
