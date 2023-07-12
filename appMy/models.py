@@ -16,4 +16,9 @@ class UserInfo(models.Model):
     user = models.ForeignKey( User , verbose_name=("Kullanıcı Adı"), on_delete=models.CASCADE)
     password = models.CharField(("Parola"), max_length=50)
                             
+                            
+class Post(models.Model):
+    title = models.CharField(("Başlık"), max_length=50)
+    content = models.TextField(("Paragraf"))
+    
 

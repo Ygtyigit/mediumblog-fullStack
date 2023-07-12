@@ -225,8 +225,10 @@
               {% csrf_token %}
               <input class="mt-2 girisinput" name="email" type="text" placeholder="E-mail">
               <input class="mt-2 girisinput" name="password" type="password" placeholder="Şifre">
-              <button class="mt-2 girisinput" type="submit">Giriş Yap</button>
+              <button class="mt-2 girisinput" name='submit' type="submit" value='login'>Giriş Yap</button>
             </form>
+
+            
             {% if messages %}
           
             {% for mesaj in messages %}
@@ -276,9 +278,11 @@
           <input class="mt-1" name="email" type="text" placeholder="E-mail">
           <input class="mt-1" name="passwaord1" type="password" placeholder="Şifre">
           <input class="mt-1" name="passwaord2" type="password" placeholder="Şifre Tekrar">
-          <button class="d-block mt-1" name="kayit" type="submit">Kayıt Ol</button>
+          <button class="d-block mt-1" name="submit" type="submit" value='register' >Kayıt Ol</button>
         </form>
+     
         
+
         {% if messages %}
           
           {% for mesaj in messages %}

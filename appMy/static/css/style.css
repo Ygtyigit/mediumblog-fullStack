@@ -864,6 +864,17 @@ ul li{
 .navbarp10 p{
     font-size: 30px;
 }
+.cardinput{
+    display: block;
+    width: 50vw;
+    padding: 0 1.25rem;
+}
+
+.cardinput,
+.cardinput::placeholder{
+    font-size: 50px;
+}
+
 /* @media screen and (max-width : 770px) {
     .container .row .col-4{
         background-color: green; 

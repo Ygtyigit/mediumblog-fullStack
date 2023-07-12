@@ -26,5 +26,6 @@ urlpatterns = [
     path('membership/', membership ,name='membership'),
     path('write/', write ,name='write'),
     path('inpage/', inpage ,name='inpage'),
+    path('cardpost/',cardpost,name='cardpost'),
 
 ]+ static(settings.MEDIA_URL, document_root =settings.MEDIA_ROOT)
