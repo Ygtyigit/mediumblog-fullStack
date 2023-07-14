@@ -10,14 +10,31 @@
     <title>Document</title>
 </head>
 <body>
+    <div class="nav-10">
+        <div class="container">
+            <div class="row">
+            <div class="col-3 d-flex">
+                <img src="{% static '/img/mediumlogokisa.png' %}" width="55px" height="55px" alt="">
+                <p class="mt-3 mx-2">Draft in Yigitkoyuncu</p>
+            </div>
+            <div class="col-6"></div>
+            <div class="col-3">
+            <input type="submit" value="Publish" class="laspageinput">
+            <img src="{% static '/img/bell.png' %}" width="25px" height="25px" alt="">
+            <img class="personalimg mx-2" src="{% static '/img/0_FvDTpsyzJFYKwKVJ.png' %}" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+
     <div class="container">
         <div class="row">
             <div class="col-8">
-
                <form action="" method="POST">
                 {% csrf_token %}
                 {{form}}
-                <input type="submit" value="Gönder" class="btn">
+
                </form>
             </div>
         </div>
